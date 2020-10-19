@@ -24,8 +24,14 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.12.2",
+    "@nuxtjs/prismic": "^1.2.4",
+    "@prismicio/vue": "^2.0.7",
     "core-js": "^3.6.5",
-    "nuxt": "^2.14.6"
+    "nuxt": "^2.14.6",
+    "nuxt-sm": "0.0.6",
+    "prismic-javascript": "^3.0.2",
+    "vue-essential-slices": "^0.2.0",
+    "vue-slicezone": "0.0.28"
   },
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
@@ -44,7 +50,9 @@
     "husky": "^4.3.0",
     "jest": "^26.5.0",
     "lint-staged": "^10.4.0",
+    "node-sass": "^4.14.1",
     "prettier": "^2.1.2",
+    "sass-loader": "^10.0.3",
     "stylelint": "^13.7.2",
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-standard": "^20.0.0",
